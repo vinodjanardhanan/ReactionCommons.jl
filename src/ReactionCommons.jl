@@ -1,4 +1,5 @@
 module ReactionCommons
+using RxnHelperUtils
 
 export parase_rxn_string, parse_rxn_params, get_dependencies, species_rxn_map
 export RxnType
