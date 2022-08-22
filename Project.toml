@@ -3,8 +3,12 @@ uuid = "3fc4dfc6-bd63-4703-97f2-4579ab7691c1"
 authors = ["Vinod Janardhanan"]
 version = "0.1.0"
 
+[deps]
+RxnHelperUtils = "58b8660e-aa37-4837-a287-8893ee0015f8"
+
 [compat]
 julia = "1.7.3"
+RxnHelperUtils = "0.1.0"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

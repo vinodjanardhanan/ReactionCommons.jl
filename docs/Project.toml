@@ -1,3 +1,4 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 ReactionCommons = "3fc4dfc6-bd63-4703-97f2-4579ab7691c1"
+RxnHelperUtils = "58b8660e-aa37-4837-a287-8893ee0015f8"
