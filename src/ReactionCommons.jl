@@ -219,7 +219,7 @@ export GasMechDefinition
 """
 User state for use in user defined reaction rate calculations 
 """
-struct UserState
+struct UserDefinedState <: ReactionState
     T::Float64
     p::Float64
     molefracs::Array{Float64,1}
@@ -227,6 +227,7 @@ struct UserState
     species::Array{String,1}
     source::Array{Float64,1}
 end
+export UserDefinedState
 
 struct Chemistry 
     surfchem::Bool    
