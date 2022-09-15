@@ -220,7 +220,8 @@ export GasMechDefinition
 struct Chemistry 
     surfchem::Bool    
     gaschem::Bool    
-    udf::Bool
+    userchem::Bool
+    udf::Function
 end
 export Chemistry
 
