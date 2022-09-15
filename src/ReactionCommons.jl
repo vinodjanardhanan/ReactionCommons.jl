@@ -222,7 +222,7 @@ User state for use in user defined reaction rate calculations
 struct UserDefinedState <: ReactionState
     T::Float64
     p::Float64
-    molefracs::Array{Float64,1}
+    mole_frac::Array{Float64,1}
     molwt::Array{Float64,1}
     species::Array{String,1}
     source::Array{Float64,1}
