@@ -223,6 +223,7 @@ struct UserState
     T::Float64
     p::Float64
     molefracs::Array{Float64,1}
+    molwt::Array{Float64,1}
     species::Array{String,1}
     source::Array{Float64,1}
 end
