@@ -219,7 +219,7 @@ export GasMechDefinition
 """
 User state for use in user defined reaction rate calculations 
 """
-struct UserDefinedState <: ReactionState
+mutable struct UserDefinedState <: ReactionState
     T::Float64
     p::Float64
     mole_frac::Array{Float64,1}
